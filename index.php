@@ -57,7 +57,7 @@
 <body>
 
     <div class="container">
-    <table class="table table-hover mt-5">
+    <table class="table table-hover text-center mt-5">
         <thead>
             <tr>
                 <th scope="col">NOME</th>
@@ -74,12 +74,12 @@
             <td> <?= $value['description'] ?> </td>
             <td> <?= $value['parking'] ? 'si' : 'no' ?> </td>
             <td> <?= $value['vote'] ?>/5</td>
-            <td> <?= $value['distance_to_center'] ?> </td>
+            <td> <?= $value['distance_to_center'] ?> km </td>
             </tr>
         </tbody>
         <?php endforeach; ?>
     </table>
     </div>
-    
+
 </body>
 </html>
